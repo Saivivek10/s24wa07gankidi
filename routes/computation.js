@@ -9,7 +9,8 @@ router.get('/', function(req, res, next) {
  
  
   res.send(`Math.cos() of ${x} is ${Math.cos(x)}<br> Math.asin() applied to ${x} is ${Math.asin(x)}<br> Math.asinh() applied to ${x} is ${Math.asinh(x)}`);
-  module.exports = router;
+  
  
  
 });
+module.exports = router;
